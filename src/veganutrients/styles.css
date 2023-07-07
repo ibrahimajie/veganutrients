@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.text {
+    margin-top: 10px;
+    color: black;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 50px solid red;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.triangle:hover {
+    opacity: 0.1;
+}
+
+.trapezoid5 {
+    border-bottom: 50px solid green;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.trapezoid5:hover {
+    opacity: 0.1;
+}
+
+.trapezoid4 {
+    border-bottom: 50px solid purple;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.trapezoid4:hover {
+    opacity: 0.1;
+}
+
+.trapezoid3 {
+    border-bottom: 50px solid cyan;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.trapezoid3:hover {
+    opacity: 0.1;
+}
+
+.trapezoid2 {
+    border-bottom: 50px solid yellow;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.trapezoid2:hover {
+    opacity: 0.1;
+}
+
+.trapezoid1 {
+    border-bottom: 50px solid orange;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.trapezoid1:hover {
+    opacity: 0.1;
+}
+
+.rectangle {
+    border-bottom: 50px solid blue;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    height: 0;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.rectangle:hover {
+    opacity: 0.1;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 32%;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.flex-container>div {
+    background-color: #BFEEB7;
+    margin: 8px;
+    padding: 5px;
+}
+
+@media (max-width: 425px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    .card {
+        width: 96%;
+    }
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
